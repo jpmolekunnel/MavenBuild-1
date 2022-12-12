@@ -1,5 +1,5 @@
 ---
-- hosts: webservers
+- hosts: keller.com
   vars:
   - warName: java-example.war
   - warRemotePath: /opt/apache-tomcat-8.5.78/webapps/
