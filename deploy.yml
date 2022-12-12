@@ -2,7 +2,7 @@
 - hosts: localhost
   vars:
   - warName: java-example.war
-  - warRemotePath: /home/devops/apache-tomcat-9.0.70/webapps/
+  - warRemotePath: /opt/tomcat/apache-tomcat-9.0.70/webapps/
 
   tasks:
   - name: Copy WAR to Remote server
